@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(227, 220, 235);
+}
+header {
+  background-color: #fff;
+  color: rgb(128, 123, 123);
+  text-align: center;
+}
+header li {
+  display: inline;
+  text-decoration: none;
+  color: rgb(128, 123, 123);
+  margin: 0 20px;
+}
+header a {
+  text-decoration: none;
+  color: #464149;
+}
+main h2 {
+  text-align: center;
+  color: rgb(128, 123, 123);
+  background-color: #fff;
+}
+
+#aboutme img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+#aboutme p {
+  text-align: center;
+}
+main li {
+  display: inline;
+  list-style: none;
+  margin: 0 20px;
+}
+main ul {
+  text-align: center;
+}
+#works {
+  text-align: center;
+}
+.portfori img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 0 20px;
+}
+footer {
+  background-color: #fff;
+  text-align: center;
+}
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 30px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0pxn10px rgba(0, 0, 0, 0.2);
+}
+.contact {
+  padding: 10px;
+}
+
+button {
+  background-color: #e2cabb;
+  margin: 20px;
+}
