@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="contact.html">お問合せ</a></li>
+          <li><a href="work.html">課題</a></li>
+          <li><a href="contact.html">電卓 </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>電卓</h1>
+      <h2>計算式</h2>
+      <form id="calcform" action="#" method="POST">
+        <label for="value">値１</label>
+        <input type="number" id="value1" /><br />
+        <label for="value2">値２</label>
+        <input type="number" id="value2" /><br />
+        <label for="choice">演算子</label>
+        <select name="choice" id="choice">
+          <option value="addition">足し算</option>
+          <option value="subtraction">引き算</option>
+          <option value="multiplication">掛け算</option>
+          <option value="division">割り算</option></select
+        ><br /><br />
+      </form>
+      <p id="formula">ここに計算式が表示されます</p>
+      <p id="result">ここに結果が表示されます</p>
+    </main>
+    <footer><p>&copy;2026私のポートフォリオ</p></footer>
+    <script src="JavaScript/calculate.js"></script>
+  </body>
+</html>
